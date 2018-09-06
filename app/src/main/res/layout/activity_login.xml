@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/margin_border"
+    android:paddingRight="@dimen/margin_border">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_round"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_edit_height"
+        android:hint="@string/user_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_edit_height"
+        android:hint="@string/pwd"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        style="@style/BaseBtnStyle.BottomBtn"
+        android:text="@string/login"/>
+
+</LinearLayout>

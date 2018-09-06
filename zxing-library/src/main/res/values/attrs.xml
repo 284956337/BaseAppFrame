@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ViewfinderView">
+        <attr name="maskColor" format="reference|color"></attr>
+        <attr name="resultColor" format="reference|color"></attr>
+        <attr name="frameColor" format="reference|color"></attr>
+        <attr name="resultPointColor" format="reference|color"></attr>
+        <attr name="qrcodeScanLine" format="reference|integer"></attr>
+    </declare-styleable>
+
+</resources>

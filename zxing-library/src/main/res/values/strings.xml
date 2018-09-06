@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">zxing-library</string>
+
+    <!--二维码扫描注册-->
+    <string name="sao_sao">扫一扫</string>
+    <string name="viewfinderview_status_text1">请扫描</string>
+    <string name="button_ok">ok</string>
+    <string name="msg_camera_framework_bug">打开摄像头失败，请检查是否成功授权</string>
+    <string name="regactivity_capture_txt">扫描二维码即可开始注册</string>
+    <string name="permission_camera_denied">您拒绝拍照和设备存储权限，会影响app的正常使用，请到应用管理处开启权限</string>
+    <string name="permission_denied">您拒绝获取权限，会影响app的正常使用，请到应用管理处开启权限</string>
+    <string name="permission_setting">去设置</string>
+    <string name="permission_cancel">取消</string>
+    <string name="permission_title">温馨提示</string>
+</resources>

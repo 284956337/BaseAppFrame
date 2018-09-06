@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_ViewfinderView="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <com.plus.zxing.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:frameColor="@color/viewfinder_frame"
+        app:maskColor="@color/viewfinder_mask"
+        android_ViewfinderView:qrcodeScanLine="@drawable/qrcode_scan_line"
+        android_ViewfinderView:resultColor="@color/result_view"
+        android_ViewfinderView:resultPointColor="@color/possible_result_points" />
+
+</FrameLayout>
