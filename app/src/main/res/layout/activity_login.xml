@@ -18,11 +18,14 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="@dimen/main_edit_height"
+        android:background="@drawable/shape_edit_radius_bg"
         android:hint="@string/user_name"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="@dimen/main_edit_height"
+        android:background="@drawable/shape_edit_radius_bg"
+        android:layout_marginTop="10dp"
         android:hint="@string/pwd"/>
 
     <Button

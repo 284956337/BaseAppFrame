@@ -16,6 +16,9 @@
     <color name="Grey800">#424242</color>
     <color name="Grey900">#212121</color>
 
+    <!--   -->
+    <color name="white">#FFFFFF</color>
+
     <!-- toolbar -->
     <color name="title_text_color">@color/Grey50</color>
 

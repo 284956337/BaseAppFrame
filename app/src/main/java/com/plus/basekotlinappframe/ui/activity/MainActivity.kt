@@ -6,12 +6,12 @@ import android.view.Menu
 import android.view.MenuItem
 import com.plus.basekotlinappframe.R
 import com.plus.basekotlinappframe.base.BaseActivity
+import com.plus.basekotlinappframe.ext.showToast
 import com.plus.basekotlinappframe.utils.PermissionUtil
 import com.plus.zxing.ui.CaptureActivity
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.layout_toolbar.*
-import org.jetbrains.anko.toast
 import pub.devrel.easypermissions.AfterPermissionGranted
 import pub.devrel.easypermissions.EasyPermissions
 
@@ -97,7 +97,7 @@ class MainActivity : BaseActivity(), EasyPermissions.PermissionCallbacks{
 
     //失败
     override fun onPermissionsDenied(requestCode: Int, list: List<String>) {
-        toast("申请权限失败！")
+        showToast("申请权限失败！")
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

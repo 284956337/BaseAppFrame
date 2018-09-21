@@ -14,8 +14,8 @@ object PermissionUtil {
      */
     val PERMISSIONS_CAMERA: Array<String> = arrayOf(android.Manifest.permission.CAMERA)
 
-    fun hasPermissions(context: Context, vararg permissions: String?): Boolean{
-        context?.let {
+    fun hasPermissions(context: Context, vararg permissions: String): Boolean{
+        context.let {
             return EasyPermissions.hasPermissions(it, *permissions)
         }
     }
